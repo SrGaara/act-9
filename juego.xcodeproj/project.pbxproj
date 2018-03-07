@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3EEBAC2204F72CC005B8778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EEBAC1204F72CC005B8778 /* AppDelegate.swift */; };
+		F3EEBAC4204F72CC005B8778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EEBAC3204F72CC005B8778 /* ViewController.swift */; };
+		F3EEBAC7204F72CC005B8778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EEBAC5204F72CC005B8778 /* Main.storyboard */; };
+		F3EEBAC9204F72CC005B8778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EEBAC8204F72CC005B8778 /* Assets.xcassets */; };
+		F3EEBACC204F72CC005B8778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EEBACA204F72CC005B8778 /* LaunchScreen.storyboard */; };
+		F3EEBAD7204F72CD005B8778 /* juegoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EEBAD6204F72CD005B8778 /* juegoTests.swift */; };
+		F3EEBAE2204F72CD005B8778 /* juegoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EEBAE1204F72CD005B8778 /* juegoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3EEBAD3204F72CD005B8778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3EEBAB6204F72CC005B8778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3EEBABD204F72CC005B8778;
+			remoteInfo = juego;
+		};
+		F3EEBADE204F72CD005B8778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3EEBAB6204F72CC005B8778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3EEBABD204F72CC005B8778;
+			remoteInfo = juego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3EEBABE204F72CC005B8778 /* juego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EEBAC1204F72CC005B8778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3EEBAC3204F72CC005B8778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3EEBAC6204F72CC005B8778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3EEBAC8204F72CC005B8778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3EEBACB204F72CC005B8778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3EEBACD204F72CC005B8778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EEBAD2204F72CD005B8778 /* juegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EEBAD6204F72CD005B8778 /* juegoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoTests.swift; sourceTree = "<group>"; };
+		F3EEBAD8204F72CD005B8778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EEBADD204F72CD005B8778 /* juegoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juegoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EEBAE1204F72CD005B8778 /* juegoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoUITests.swift; sourceTree = "<group>"; };
+		F3EEBAE3204F72CD005B8778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3EEBABB204F72CC005B8778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EEBACF204F72CD005B8778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EEBADA204F72CD005B8778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3EEBAB5204F72CC005B8778 = {
+			isa = PBXGroup;
+			children = (
+				F3EEBAC0204F72CC005B8778 /* juego */,
+				F3EEBAD5204F72CD005B8778 /* juegoTests */,
+				F3EEBAE0204F72CD005B8778 /* juegoUITests */,
+				F3EEBABF204F72CC005B8778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3EEBABF204F72CC005B8778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEBABE204F72CC005B8778 /* juego.app */,
+				F3EEBAD2204F72CD005B8778 /* juegoTests.xctest */,
+				F3EEBADD204F72CD005B8778 /* juegoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3EEBAC0204F72CC005B8778 /* juego */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEBAC1204F72CC005B8778 /* AppDelegate.swift */,
+				F3EEBAC3204F72CC005B8778 /* ViewController.swift */,
+				F3EEBAC5204F72CC005B8778 /* Main.storyboard */,
+				F3EEBAC8204F72CC005B8778 /* Assets.xcassets */,
+				F3EEBACA204F72CC005B8778 /* LaunchScreen.storyboard */,
+				F3EEBACD204F72CC005B8778 /* Info.plist */,
+			);
+			path = juego;
+			sourceTree = "<group>";
+		};
+		F3EEBAD5204F72CD005B8778 /* juegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEBAD6204F72CD005B8778 /* juegoTests.swift */,
+				F3EEBAD8204F72CD005B8778 /* Info.plist */,
+			);
+			path = juegoTests;
+			sourceTree = "<group>";
+		};
+		F3EEBAE0204F72CD005B8778 /* juegoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3EEBAE1204F72CD005B8778 /* juegoUITests.swift */,
+				F3EEBAE3204F72CD005B8778 /* Info.plist */,
+			);
+			path = juegoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3EEBABD204F72CC005B8778 /* juego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EEBAE6204F72CD005B8778 /* Build configuration list for PBXNativeTarget "juego" */;
+			buildPhases = (
+				F3EEBABA204F72CC005B8778 /* Sources */,
+				F3EEBABB204F72CC005B8778 /* Frameworks */,
+				F3EEBABC204F72CC005B8778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = juego;
+			productName = juego;
+			productReference = F3EEBABE204F72CC005B8778 /* juego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3EEBAD1204F72CD005B8778 /* juegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EEBAE9204F72CD005B8778 /* Build configuration list for PBXNativeTarget "juegoTests" */;
+			buildPhases = (
+				F3EEBACE204F72CD005B8778 /* Sources */,
+				F3EEBACF204F72CD005B8778 /* Frameworks */,
+				F3EEBAD0204F72CD005B8778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3EEBAD4204F72CD005B8778 /* PBXTargetDependency */,
+			);
+			name = juegoTests;
+			productName = juegoTests;
+			productReference = F3EEBAD2204F72CD005B8778 /* juegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3EEBADC204F72CD005B8778 /* juegoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EEBAEC204F72CD005B8778 /* Build configuration list for PBXNativeTarget "juegoUITests" */;
+			buildPhases = (
+				F3EEBAD9204F72CD005B8778 /* Sources */,
+				F3EEBADA204F72CD005B8778 /* Frameworks */,
+				F3EEBADB204F72CD005B8778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3EEBADF204F72CD005B8778 /* PBXTargetDependency */,
+			);
+			name = juegoUITests;
+			productName = juegoUITests;
+			productReference = F3EEBADD204F72CD005B8778 /* juegoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3EEBAB6204F72CC005B8778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alumno IDS";
+				TargetAttributes = {
+					F3EEBABD204F72CC005B8778 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F3EEBAD1204F72CD005B8778 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3EEBABD204F72CC005B8778;
+					};
+					F3EEBADC204F72CD005B8778 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3EEBABD204F72CC005B8778;
+					};
+				};
+			};
+			buildConfigurationList = F3EEBAB9204F72CC005B8778 /* Build configuration list for PBXProject "juego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3EEBAB5204F72CC005B8778;
+			productRefGroup = F3EEBABF204F72CC005B8778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3EEBABD204F72CC005B8778 /* juego */,
+				F3EEBAD1204F72CD005B8778 /* juegoTests */,
+				F3EEBADC204F72CD005B8778 /* juegoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3EEBABC204F72CC005B8778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EEBACC204F72CC005B8778 /* LaunchScreen.storyboard in Resources */,
+				F3EEBAC9204F72CC005B8778 /* Assets.xcassets in Resources */,
+				F3EEBAC7204F72CC005B8778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EEBAD0204F72CD005B8778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EEBADB204F72CD005B8778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3EEBABA204F72CC005B8778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EEBAC4204F72CC005B8778 /* ViewController.swift in Sources */,
+				F3EEBAC2204F72CC005B8778 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EEBACE204F72CD005B8778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EEBAD7204F72CD005B8778 /* juegoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EEBAD9204F72CD005B8778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EEBAE2204F72CD005B8778 /* juegoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3EEBAD4204F72CD005B8778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3EEBABD204F72CC005B8778 /* juego */;
+			targetProxy = F3EEBAD3204F72CD005B8778 /* PBXContainerItemProxy */;
+		};
+		F3EEBADF204F72CD005B8778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3EEBABD204F72CC005B8778 /* juego */;
+			targetProxy = F3EEBADE204F72CD005B8778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3EEBAC5204F72CC005B8778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EEBAC6204F72CC005B8778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3EEBACA204F72CC005B8778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EEBACB204F72CC005B8778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3EEBAE4204F72CD005B8778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3EEBAE5204F72CD005B8778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3EEBAE7204F72CD005B8778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srgaara.juego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3EEBAE8204F72CD005B8778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srgaara.juego;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3EEBAEA204F72CD005B8778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srgaara.juegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juego.app/juego";
+			};
+			name = Debug;
+		};
+		F3EEBAEB204F72CD005B8778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = juegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srgaara.juegoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juego.app/juego";
+			};
+			name = Release;
+		};
+		F3EEBAED204F72CD005B8778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = juegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srgaara.juegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = juego;
+			};
+			name = Debug;
+		};
+		F3EEBAEE204F72CD005B8778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = juegoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srgaara.juegoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = juego;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3EEBAB9204F72CC005B8778 /* Build configuration list for PBXProject "juego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEBAE4204F72CD005B8778 /* Debug */,
+				F3EEBAE5204F72CD005B8778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EEBAE6204F72CD005B8778 /* Build configuration list for PBXNativeTarget "juego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEBAE7204F72CD005B8778 /* Debug */,
+				F3EEBAE8204F72CD005B8778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3EEBAE9204F72CD005B8778 /* Build configuration list for PBXNativeTarget "juegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEBAEA204F72CD005B8778 /* Debug */,
+				F3EEBAEB204F72CD005B8778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3EEBAEC204F72CD005B8778 /* Build configuration list for PBXNativeTarget "juegoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EEBAED204F72CD005B8778 /* Debug */,
+				F3EEBAEE204F72CD005B8778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3EEBAB6204F72CC005B8778 /* Project object */;
+}
